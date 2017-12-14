@@ -1,0 +1,655 @@
+.pasekbody {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 198px;
+}
+
+.frames {
+	height: 100%;
+}
+
+#header {
+	position: absolute;
+	background: rgba(38, 38, 38, 1);
+	background: -moz-linear-gradient(left, rgba(38, 38, 38, 1) 0%,
+		rgba(81, 99, 103, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(38, 38, 38, 1)),
+		color-stop(100%, rgba(81, 99, 103, 1)));
+	background: -webkit-linear-gradient(left, rgba(38, 38, 38, 1) 0%,
+		rgba(81, 99, 103, 1) 100%);
+	background: -o-linear-gradient(left, rgba(38, 38, 38, 1) 0%,
+		rgba(81, 99, 103, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(38, 38, 38, 1) 0%,
+		rgba(81, 99, 103, 1) 100%);
+	background: linear-gradient(to right, rgba(38, 38, 38, 1) 0%,
+		rgba(81, 99, 103, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626',
+		endColorstr='#516367', GradientType=1);
+	height: 198px; /* Grubość paska */
+	position: relative; /* ułozenie zmieniane w zaleznosci od sprzetu  */
+	font-size: 140%;
+	letter-spacing: 10px;
+	font-family: "Montserrat";
+	font-weight: 900;
+}
+
+#header ul {
+	list-style: none; /*usunięcie znaczników listy */
+}
+
+#header a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	margin-top: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header a:hover {
+	color: white;
+	text-shadow: 0 0 30px white, 0 0 10px white;
+}
+
+.logoFoto1 {
+	display: block;
+	max-height: 198px;
+	max-width: 500px;
+	height: 100%;
+    width: 100%;
+}
+
+.logoFoto2 {
+	display: block;
+	vertical-align: baseline;
+	max-height: 198px;
+	max-width: 500px;
+	    height: 100%;
+    width: 100%;
+}
+
+.left {
+	width: 35%;
+	height: 100%;
+	margin-top: 0px;
+	display: block;
+	color: white;
+	float: left;
+	max-height: 198px;
+	
+}
+
+.right {
+	width: 35%;
+	height: 100%;
+	margin-top: 2px;
+	display: block;
+	color: white;
+	float: left;
+	max-height: 198px;
+	
+}
+
+.center {
+	margin-top: 0px;
+	width: 30%;
+	height: 100%;
+	display: block;
+	float: left;
+	max-height: 198px;
+	max-width: 500px;
+}
+
+.item {
+	height: 25%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.itemLeft {
+	margin-left: 25%;
+	height: 25%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.itemRight {
+	height: 25%;
+	text-align: center;
+	padding-top: 15px;
+	margin-right: 25%;
+}
+
+.body1 {
+	margin: 0;
+	letter-spacing: 7px;
+	background-image: url("img/page1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.box1 {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 45%;
+	height: 650px;
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-left: 638px;
+	box-shadow: 0 8px 6px -6px black;
+	background-color: #262626;
+	opacity: 0.66;
+	float: right;
+	margin-bottom: 5%;
+}
+
+.p1 {
+	margin-top: 30px;
+	font-size: 20px;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: justify;
+	font-size: 30px;
+	font-family: "Montserrat";
+}
+
+.oferta {
+	margin: 0;
+	letter-spacing: 7px;
+	background-image: url("img/droga3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	letter-spacing: 2px;
+	font-family: "Montserrat";
+}
+
+.ofertaDivH1 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.ofertaH1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 90px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-weight: 700;
+	margin-top: 4%;
+}
+
+.ofertaDivLink {
+	text-align: center;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 8px;
+	border-top-width: 8px;
+	border-right-width: 8px;
+	border-bottom-width: 8px;
+	border-top-style: solid;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 38%;
+	margin-right: 38%;
+}
+
+.ofertaLink {
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+}
+
+.ofertaLink:hover {
+	color: white;
+	text-shadow: 0 0 30px white, 0 0 10px white;
+}
+
+.ofertaParagraf {
+	background-color: white;
+	opacity: 0.68;
+	color: #2e3033;
+	font-size: 35px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.ofertaParagrafP {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify;
+}
+
+.bodyOurOffer {
+	background-color: d3d3d3;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: "Montserrat"
+}
+
+.headOurOffer {
+	text-transform: uppercase;
+	background-color: #9fa1a2;
+	height: 95px;
+}
+
+.headOurOfferH1 {
+	color: white;
+	margin-left: 7%;
+	float: left;
+	margin-top: 0px;
+	margin-right: 1%;
+	font-size: 70px;
+	letter-spacing: 10px;
+}
+
+.headOurOfferH2 {
+	font-size: 70px;
+	color: #516373;
+	margin-top: 0px;
+	letter-spacing: 10px;
+}
+
+.paraOurOffer {
+	float: left;
+}
+
+.arowOurOffer {
+	width: 4%;
+	float: left;
+	margin-left: 10%;
+	margin-right: 2%;
+	margin-top: 25px;
+}
+
+.paragraphOurOffer {
+	margin-top: 0px;
+	font-size: 40px;
+	margin-left: 11%;
+	margin-right: 5%;
+}
+
+.contactBody {
+	background-image: url("img/contact.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.contactHead {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80px;
+	margin-top: 20px;
+}
+
+.contactHeadH1 {
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	text-align: center;
+	
+}
+
+.contactMap {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 5%;
+	height: 400px;
+	width: 400px;
+	margin-bottom: 25px;
+	color: black;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-left-width: 25px;
+	border-top-width: 25px;
+	border-right-width: 25px;
+	border-bottom-width: 25px;
+	border-top-color: white;
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+}
+
+.contactInfo {
+	height: 50%;
+	margin-left: 15%;
+	margin-right: 100px;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 0px;
+	padding-top: 40px;
+	float:left;
+}
+
+.contactInfoP1 {
+	font-size: 40px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	font-weight: 900;
+}
+
+.contactInfoP {
+	font-size: 30px;
+}
+
+.leftMinWage {
+	background-image: url("img/clock.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:50%;
+	height:100%;
+	
+}
+
+.rightMinWage {
+	color: white;
+	font-family: "Montserrat";
+	background: rgba(75, 79, 82, 1);
+	background: -moz-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(75, 79, 82, 1)),
+		color-stop(100%, rgba(107, 123, 137, 1)));
+	background: -webkit-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -o-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: linear-gradient(to right, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f52',
+		endColorstr='#6b7b89', GradientType=1);
+	
+    height: 100%;
+	
+}
+
+.headLeftMinWage {
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+.buttonCountry {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.iframeMin_Wage{
+	width:100%;
+	 height:100%;
+	 
+}
+.bodyMinWage{
+	margin-top:0px;
+	width:100%;
+	height:136%;
+	margin-left: 0px;
+	font-family: "Montserrat"; 
+    margin-bottom: 0px;
+    max-height: 1000px;
+	 
+}
+
+.MinWageTable{
+	text-align: center;
+	width:100%;
+	height:500px;
+}
+.MinWageButton{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	margin-top: 0px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+}
+
+.MinWageButton:hover {
+	color: white;
+	text-shadow: 0 0 30px white, 0 0 10px white;
+}
+
+
+.H1MinWage{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	margin-top:5%;
+	
+}
+.DivMinWageRight{
+	float:left;
+	width:70%;
+	 height:100%;
+}
+
+.DivMinWageLeft{
+	float:left;
+	width:30%;
+	 height:100%;
+	 background-image: url("img/clock.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.whitePage {
+	background-image: url("img/tir.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.whiteDiv {
+	margin-top: 25%;
+	text-transform: uppercase;
+	font-size: 70px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 40%;
+	margin-right: 3%;
+	margin-left: 3%;
+	box-shadow: 0 8px 6px -6px black;
+	background-color: #262626;
+	opacity: 0.66;
+}
+
+.whiteP {
+	margin-bottom: 0px;
+	font-size: 90px;
+	margin-right: 5%;
+	margin-left: 3%;
+	text-align: left;
+	color: white;
+	font-family: "Montserrat";
+	padding-top: 1%;
+}
+
+.whiteH1 {
+	margin-right: 3%;
+	margin-left: 3%;
+	color: white;
+	font-family: "Montserrat";
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.weekend {
+	background-image: url("img/dom1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.weekendH1 {
+	text-align: center;
+}
+
+.weekendH1text {
+	margin-top: 7%;
+	text-align: center;
+	font-size: 120px;
+	font-family: "Montserrat";
+	margin-bottom: 2%;
+}
+
+.weekendbox {
+	margin-right: 3%;
+	margin-left: 3%;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}
+
+.weekendP {
+	float: left;
+	margin-top: 1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 2%;
+	font-family: "Montserrat";
+}
+
+.cardReader {
+	color: white;
+	background: rgba(75, 79, 82, 1);
+	background: -moz-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(75, 79, 82, 1)),
+		color-stop(100%, rgba(107, 123, 137, 1)));
+	background: -webkit-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -o-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	background: linear-gradient(to right, rgba(75, 79, 82, 1) 0%,
+		rgba(107, 123, 137, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4f52',
+		endColorstr='#6b7b89', GradientType=1);
+	color: white;
+	font-family: "Montserrat";
+}
+
+.cardReaderLeft {
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+.cardReaderDiv1 {
+	margin-top: 3%;
+	height: 33%;
+	margin-left: 15%;
+	text-align: center;
+}
+
+.cardReaderDiv2 {
+	text-align: center;
+	font-size: 30px;
+	margin-left: 15%;
+}
+
+.cardReaderP {
+	margin-top: 0px;
+}
+
+.carReaderRight {
+	float: left;
+	width: 100%;
+	height: 50%;
+}
+
+.apple {
+	margin-top: 3%;
+	margin-left: 15%;
+}
+
+.cardReaderH1 {
+	font-size: 85px;
+}
+
+.cardReaderDownload {
+	text-align: center;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: 8px;
+	border-top-width: 8px;
+	border-right-width: 8px;
+	border-bottom-width: 8px;
+	border-top-style: solid;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 38%;
+	margin-right: 38%;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 10%;
+}
+
+.rightMinWageDivFoto{
+	padding-left: 5%;
+	padding-top: 7%;
+	
+}
+.rightMinWageFoto{
+	width: 300px;
+	height: 150px;
+	float: left;
+    padding-right: 50px;
+    padding-top: 8px;
+	
+	
+}
+.rightMinWageDivH1{
+	
+}
+.rightMinWageH1{
+	font-size: 105px;
+	margin-top: 0px;
+	text-transform: uppercase; 
+}
+.rightMinWageP{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align:justify;
+	padding-bottom: 70px
+}
+.rightMinWagePrice{
+	padding-left: 5%;
+	font-size: 50px;
+
+	
+}
+@media screen and (max-width: 500px) {
+	.logo {
+		bottom: 100%;
+	}
+}
